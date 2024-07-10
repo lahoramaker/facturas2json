@@ -1,0 +1,9 @@
+streamlit
+marker-pdf
+transformers
+torch
+pdf2image
+numpy
+pandas
+Pillow
+aiohttp
