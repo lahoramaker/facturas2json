@@ -60,8 +60,10 @@ Este proyecto es una aplicación de Streamlit diseñada para extraer informació
 
 - Asegúrese de que sus PDFs sean legibles y estén en un formato estándar para obtener los mejores resultados.
 - La aplicación utiliza modelos de IA para la extracción de datos, por lo que los resultados pueden variar dependiendo de la calidad y el formato de los PDFs.
+- Tenga en cuenta que los pesos del modelo Marker están bajo la licencia cc-by-nc-sa-4.0, pero el autor ha renunciado a esta restricción para cualquier organización con ingresos brutos inferiores a 5 millones de dólares estadounidenses en los últimos 12 meses y con menos de 5 millones de dólares en financiación total recibida de capital de riesgo o business angels. Si desea obtener más información sobre la licencia, por favor visite el [repositorio de Marker](https://github.com/VikParuchuri/marker).
 
-## Contribuir
+
+## Contribuciones
 
 Las contribuciones son bienvenidas. Por favor, abra un issue para discutir cambios importantes antes de crear un pull request.
 
