@@ -6,4 +6,7 @@ pdf2image
 numpy
 pandas
 Pillow
-aiohttp
+aiohttp 
+
+https://github.com/VikParuchuri/marker/issues/162
+
