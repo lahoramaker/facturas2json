@@ -1,4 +1,4 @@
-# Invoice Extractor
+# Facturas2json
 
 This project is a Streamlit application designed to extract information from PDF invoices and convert it into a structured format (JSON).
 
@@ -21,8 +21,8 @@ This project is a Streamlit application designed to extract information from PDF
 
 1. Clone this repository:
    ```
-   git clone https://github.com/your-username/invoice-extractor.git
-   cd invoice-extractor
+   git clone https://github.com/lahoramaker/facturas2json.git
+   cd facturas2json
    ```
 
 2. Create a virtual environment (optional but recommended):
