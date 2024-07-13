@@ -1,0 +1,5 @@
+https://stackoverflow.com/questions/60172282/how-to-run-debug-a-streamlit-application-from-an-ide
+https://ploomber.io/blog/streamlit-debugging/  El Mejor
+
+
+https://pdf2image.readthedocs.io/en/latest/installation.html

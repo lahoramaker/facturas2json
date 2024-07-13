@@ -46,7 +46,10 @@ def extract_text_from_pdf(pdf_file):
         tmp_file.write(pdf_file.getvalue())
         tmp_file_path = tmp_file.name
     full_text, doc_images, out_meta = convert_single_pdf(tmp_file_path, marker_models)
-    os.unlink(tmp_file_path)
+    try:
+        os.unlink(tmp_file_path)
+    except:
+        print("FALLO")
     return full_text
 
 async def extract_invoice_data(markdown_text):
