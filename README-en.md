@@ -7,7 +7,7 @@ This project is a Streamlit application designed to extract information from PDF
 - User interface in Spanish
 - Multiple PDF file upload
 - PDF text extraction using the Marker library
-- Structured data extraction using a language model
+- Structured data extraction using a nuExtract foundation model
 - PDF preview and extracted data editing
 - Data saving in JSONL format
 - Background processing to improve efficiency
@@ -52,6 +52,12 @@ This project is a Streamlit application designed to extract information from PDF
 - Make sure your PDFs are readable and in a standard format for best results.
 - The application uses AI models for data extraction, so results may vary depending on the quality and format of the PDFs.
 - Please note that the Marker weights for the models are licensed cc-by-nc-sa-4.0, but waived by the author that for any organization under $5M USD in gross revenue in the most recent 12-month period AND under $5M in lifetime VC/angel funding raised. If you'd like to know more about the licensing, please visit the [Marker repository](https://github.com/VikParuchuri/marker)
+
+## Additional resources
+
+To learn more about the project, you can check the following videos (in Spanish):
+- Aplication overview: https://youtu.be/I7N2DSzUXbc
+- Demo plus detailed description of componentes and code: https://youtu.be/Gov8eR5LBHQ
 
 ## Contributing
 
