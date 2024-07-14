@@ -42,11 +42,13 @@ warnings.filterwarnings("ignore", message="You are not running the flash-attenti
 marker_models, tokenizer, nuextract_model = load_models()
 
 def extract_text_from_pdf(pdf_file):
-    with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as tmp_file:
+    dele=False
+    with tempfile.NamedTemporaryFile(delete=dele, suffix=".pdf") as tmp_file:
         tmp_file.write(pdf_file.getvalue())
         tmp_file_path = tmp_file.name
         full_text, doc_images, out_meta = convert_single_pdf(tmp_file_path, marker_models)
-        os.unlink(tmp_file_path)
+        dele=True
+        #os.unlink(tmp_file_path)
     return full_text
    # try:
     #    os.unlink(tmp_file_path)
