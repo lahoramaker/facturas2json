@@ -151,7 +151,7 @@ def upload_screen():
     st.title("Extractor de Facturas - Subir PDFs")
     uploaded_files = st.file_uploader("Elige facturas en PDF", type="pdf", accept_multiple_files=True)
     
-    st.session_state.output_filename = st.text_input("Nombre del archivo de salida", value=st.session_state.output_filename)
+    st.session_state.output_filename = st.text_input("Nombre del archivo de salida", value=st.session_state.output_filename,key="1")
     
     if uploaded_files:
         if st.button("Procesar PDFs"):
@@ -215,7 +215,7 @@ def review_screen():
                 number, currency = separate_currency(value)
                 edited_data[key] = st.text_input(f"{field_translations[key]} (Número)", number)
                 if 'Currency' not in edited_data:
-                    edited_data['Currency'] = st.text_input("Moneda", currency)
+                    edited_data['Currency'] = st.text_input("Moneda", currency,key="2")
             else:
                 edited_data[key] = st.text_input(field_translations[key], value)
         
