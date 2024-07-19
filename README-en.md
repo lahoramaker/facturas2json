@@ -47,6 +47,17 @@ This project is a Streamlit application designed to extract information from PDF
 
 3. Use the interface to upload PDF files, review the extracted data, and save the results.
 
+## Invoice analyzer
+
+A new feature has beed added to analyze the extracted invoices. It also allows you convert from JSON to CSV and viceversa. To execute it, execute the following command:
+
+
+   ```
+   streamlit run src/analizar_facturas.py
+   ```
+
+If this script is not in your local repo, please update it executing `git pull`.
+
 ## Notes
 
 - Make sure your PDFs are readable and in a standard format for best results.

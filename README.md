@@ -56,6 +56,17 @@ Este proyecto es una aplicación de Streamlit diseñada para extraer informació
 
 3. Usa la interfaz para cargar archivos PDF, revisar los datos extraídos y guardar los resultados.
 
+## Analizador de facturas
+
+Se ha añadido una nueva funcionalidad para analizar los datos obtenidos, permitiendo también convertirlos en CSV y viceversa. Para abrirlo, ejecuta:
+
+   ```
+   streamlit run src/analizar_facturas.py
+   ```
+
+Si no dispones de este script, puedes actualizar el repositorio (ejecutando `git pull` desde la propia carpeta)
+
+
 ## Notas
 
 - Asegúrate de que tus PDFs sean legibles y estén en un formato estándar para obtener los mejores resultados.
