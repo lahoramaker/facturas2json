@@ -1,0 +1,13 @@
+Number,Issuer,IssuerVAT,Date,DueDate,IssuerAddress,IssuerEmail,RecipientName,RecipientEmail,RecipientVAT,TotalExcludingTax,Currency,VATTotal,TotalAmount
+NF-2024-04-001,Netflix,NL123456789B01,"April 1, 2024","April 1, 2024","1 Netflix Way, Los Gatos, CA 95032, USA",billing@netflix.com,Marc A.,marc.a@example.com,,11.99,€,2.52,14.51
+OAI-2024-04-001,OpenAI (ChatGPT),,"April 5, 2024","April 5, 2024","3180 18th Street, San Francisco, CA 94110, USA",support@openai.com,Marc A.,marc.a@example.com,,20.00,$,0.00,20.00
+CN-2024-04-001,Canva,AU123456789,"April 10, 2024","April 10, 2024","110 Kippax Street, Surry Hills NSW 2010, Australia",billing@canva.com,Marc A.,marc.a@example.com,,9.99,€,2.10,12.09
+SP-2024-04-001,Spotify,SE556786733801,"April 15, 2024","April 15, 2024","Regeringsgatan 19, 111 53 Stockholm, Sweden",support@spotify.com,Marc A.,marc.a@example.com,,9.99,€,2.10,12.09
+NF-2024-05-001,Netflix,NL123456789B01,"May 1, 2024","May 1, 2024","1 Netflix Way, Los Gatos, CA 95032, USA",billing@netflix.com,Marc A.,marc.a@example.com,,12.49,€,2.62,15.11
+OAI-2024-05-001,OpenAI (ChatGPT),,"May 5, 2024","May 5, 2024","3180 18th Street, San Francisco, CA 94110, USA",support@openai.com,Marc A.,marc.a@example.com,,22.50,$,0.00,22.50
+CN-2024-05-001,Canva,AU123456789,"May 10, 2024","May 10, 2024","110 Kippax Street, Surry Hills NSW 2010, Australia",billing@canva.com,Marc A.,marc.a@example.com,,10.49,€,2.20,12.69
+SP-2024-05-001,Spotify,SE556786733801,"May 15, 2024","May 15, 2024","Regeringsgatan 19, 111 53 Stockholm, Sweden",support@spotify.com,Marc A.,marc.a@example.com,,9.99,€,2.10,12.09
+NF-2024-06-001,Netflix,NL123456789B01,"June 1, 2024","June 1, 2024","1 Netflix Way, Los Gatos, CA 95032, USA",billing@netflix.com,Marc A.,marc.a@example.com,,12.99,€,2.73,15.72
+OAI-2024-06-001,OpenAI (ChatGPT),,"June 5, 2024","June 5, 2024","3180 18th Street, San Francisco, CA 94110, USA",support@openai.com,Marc A.,marc.a@example.com,,25.00,$,0.00,25.00
+CN-2024-06-001,Canva,AU123456789,"June 10, 2024","June 10, 2024","110 Kippax Street, Surry Hills NSW 2010, Australia",billing@canva.com,Marc A.,marc.a@example.com,,10.99,€,2.31,13.30
+SP-2024-06-001,Spotify,SE556786733801,"June 15, 2024","June 15, 2024","Regeringsgatan 19, 111 53 Stockholm, Sweden",support@spotify.com,Marc A.,marc.a@example.com,,9.99,€,2.10,12.09
